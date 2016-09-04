@@ -1,0 +1,30 @@
+{
+  "name": "BabelEvents",
+  "lowCaseName": "babelevents",
+  "description": "Generic BabelEvent Plugins",
+  "author": "Thomas Jakobi",
+  "version": "1.0.0",
+  "package": {
+    "elements": {
+      "plugins": [
+        {
+          "name": "BabelEvents",
+          "file": "babelevents.plugin.php",
+          "events": [
+            "OnBabelDuplicate",
+            "OnBabelLink",
+            "OnBabelUnlink"
+          ]
+        }
+      ]
+    }
+  },
+  "build": {
+    "readme": "docs/readme.txt",
+    "license": "docs/license.txt",
+    "changelog": "docs/changelog.txt",
+    "resolver": {
+      "before": ["check_babel.resolver.php"]
+    }
+  }
+}
