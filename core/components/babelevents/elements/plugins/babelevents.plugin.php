@@ -6,6 +6,8 @@
  *
  * @package babelevents
  * @subpackage plugin
+ *
+ * @var modX $modx
  */
 
 $babel = $modx->getService('babel', 'Babel', $modx->getOption('babel.core_path', null, $modx->getOption('core_path') . 'components/babel/') . 'model/babel/');
