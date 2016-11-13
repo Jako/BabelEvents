@@ -10,6 +10,7 @@
  * @var modX $modx
  */
 
+/** @var Babel $babel */
 $babel = $modx->getService('babel', 'Babel', $modx->getOption('babel.core_path', null, $modx->getOption('core_path') . 'components/babel/') . 'model/babel/');
 
 // Make sure that Babel is installed and babel TV is available
