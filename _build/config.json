@@ -24,7 +24,9 @@
     "license": "docs/license.txt",
     "changelog": "docs/changelog.txt",
     "resolver": {
-      "before": ["check_babel.resolver.php"]
+      "before": [
+        "check_babel.resolver.php"
+      ]
     }
   }
 }
