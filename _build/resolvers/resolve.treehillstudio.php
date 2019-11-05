@@ -2,7 +2,7 @@
 /**
  * Resolves install statistics
  *
- * @package ajaxupload
+ * @package babelevents
  * @subpackage build
  *
  * @var mixed $object
