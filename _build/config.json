@@ -25,7 +25,10 @@
     "changelog": "docs/changelog.md",
     "resolver": {
       "before": [
-        "check_babel.resolver.php"
+        "resolve.check_babel.php"
+      ],
+      "after": [
+        "resolve.treehillstudio.php"
       ]
     }
   }
