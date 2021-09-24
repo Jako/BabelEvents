@@ -19,6 +19,16 @@
       ]
     }
   },
+  "dependencies": [
+    {
+      "name": "php",
+      "version": ">=5.4"
+    },
+    {
+      "name": "modx",
+      "version": ">=2.5"
+    }
+  ],
   "build": {
     "readme": "docs/readme.md",
     "license": "docs/license.md",
