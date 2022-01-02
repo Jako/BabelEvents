@@ -2,7 +2,7 @@
 /**
  * BabelEvents
  *
- * Copyright 2016 by Thomas Jakobi <thomas.jakobi@partout.info>
+ * Copyright 2016 by Thomas Jakobi <office@treehillstudio.com>
  *
  * @package babelevents
  * @subpackage plugin

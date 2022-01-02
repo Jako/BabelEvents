@@ -2,7 +2,7 @@
 
 Generic BabelEvent Plugins
 
-- Author: Thomas Jakobi <thomas.jakobi@partout.info>
+- Author: Thomas Jakobi <office@treehillstudio.com>
 - License: GNU GPLv2
 
 ## Features
