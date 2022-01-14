@@ -9,6 +9,7 @@
       "plugins": [
         {
           "name": "BabelEvents",
+          "description": "Generic BabelEvent Plugin",
           "file": "babelevents.plugin.php",
           "events": [
             "OnBabelDuplicate",
