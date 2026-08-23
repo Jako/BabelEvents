@@ -30,7 +30,6 @@ switch ($modx->event->name) {
         $duplicateResource->set('pagetitle', str_replace($originalResource->get('context_key'), $contextKey, $duplicateResource->get('pagetitle')));
         $duplicateResource->set('content', str_replace($originalResource->get('context_key'), $contextKey, $duplicateResource->get('content')));
         $duplicateResource->save();
-
         break;
     case
     'OnBabelLink':
@@ -46,7 +45,6 @@ switch ($modx->event->name) {
         $targetResource->set('pagetitle', str_replace($originalResource->get('context_key'), $contextKey, $targetResource->get('pagetitle')));
         $targetResource->set('content', str_replace($originalResource->get('context_key'), $contextKey, $targetResource->get('content')));
         $targetResource->save();
-
         break;
     case 'OnBabelUnlink':
         $contextKey = $modx->event->params['context_key'];
@@ -61,7 +59,6 @@ switch ($modx->event->name) {
         $targetResource->set('pagetitle', str_replace($originalResource->get('context_key'), $contextKey, $targetResource->get('pagetitle')));
         $targetResource->set('content', str_replace($originalResource->get('context_key'), $contextKey, $targetResource->get('content')));
         $targetResource->save();
-
         break;
 }
 return;
